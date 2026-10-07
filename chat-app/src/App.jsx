@@ -1,8 +1,10 @@
+import { ChatPage } from '@chat-app/chatpage';
+
 function App() {
 
   return (
     <section className="app">
-      Chat App
+      <ChatPage />
     </section>
   )
 }
